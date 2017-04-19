@@ -1,0 +1,345 @@
+<?xml version="1.0" encoding="utf-8"?>
+<GridLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="160dp"
+        android:layout_row="0"
+        android:layout_column="0">
+
+        <Button
+            style="?android:attr/buttonStyleSmall"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:textSize="10sp"
+            android:id="@+id/mlb"
+            android:layout_centerVertical="true"
+            android:layout_centerHorizontal="true" />
+
+        <Button
+            style="?android:attr/buttonStyleSmall"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:textSize="10sp"
+            android:id="@+id/rolb"
+            android:layout_alignBottom="@+id/mlb"
+            android:layout_toLeftOf="@+id/mlb"
+            android:layout_toStartOf="@+id/mlb" />
+
+        <Button
+            style="?android:attr/buttonStyleSmall"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:textSize="10sp"
+            android:id="@+id/lolb"
+            android:layout_alignTop="@+id/mlb"
+            android:layout_toRightOf="@+id/mlb"
+            android:layout_toEndOf="@+id/mlb" />
+
+        <TextView
+            android:layout_width="80dp"
+            android:layout_height="wrap_content"
+            android:textAlignment="center"
+            android:id="@+id/textView2"
+            android:layout_alignParentTop="true"
+            android:layout_centerHorizontal="true" />
+
+        <Button
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:textSize="10sp"
+            android:id="@+id/le"
+            android:layout_below="@+id/lolb"
+            android:layout_toRightOf="@+id/lolb"
+            android:layout_toEndOf="@+id/lolb" />
+
+        <Button
+            style="?android:attr/buttonStyleSmall"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:textSize="10sp"
+            android:id="@+id/dt2"
+            android:layout_below="@+id/mlb"
+            android:layout_toRightOf="@+id/dt1"
+            android:layout_toEndOf="@+id/dt1" />
+
+        <Button
+            style="?android:attr/buttonStyleSmall"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:textSize="10sp"
+            android:id="@+id/dt1"
+            android:layout_below="@+id/mlb"
+            android:layout_alignLeft="@+id/textView2"
+            android:layout_alignStart="@+id/textView2" />
+
+        <Button
+            style="?android:attr/buttonStyleSmall"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:textSize="10sp"
+            android:id="@+id/re"
+            android:layout_below="@+id/rolb"
+            android:layout_toLeftOf="@+id/rolb"
+            android:layout_toStartOf="@+id/rolb" />
+
+        <Button
+            style="?android:attr/buttonStyleSmall"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:textSize="10sp"
+            android:id="@+id/cb1"
+            android:layout_alignTop="@+id/re"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true" />
+
+        <Button
+            style="?android:attr/buttonStyleSmall"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:textSize="10sp"
+            android:id="@+id/cb2"
+            android:layout_alignTop="@+id/le"
+            android:layout_alignParentRight="true"
+            android:layout_alignParentEnd="true" />
+
+        <Button
+            style="?android:attr/buttonStyleSmall"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:textSize="10sp"
+            android:id="@+id/fs"
+            android:layout_alignTop="@+id/ss"
+            android:layout_toLeftOf="@+id/textView2"
+            android:layout_toStartOf="@+id/textView2" />
+
+        <Button
+            style="?android:attr/buttonStyleSmall"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:textSize="10sp"
+            android:id="@+id/ss"
+            android:layout_below="@+id/textView2"
+            android:layout_toRightOf="@+id/textView2"
+            android:layout_toEndOf="@+id/textView2" />
+
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="160dp"
+        android:layout_row="1"
+        android:layout_column="0">
+
+        <Button
+            style="?android:attr/buttonStyleSmall"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:textSize="10sp"
+            android:id="@+id/c"
+            android:layout_alignParentTop="true"
+            android:layout_centerHorizontal="true" />
+
+        <Button
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:textSize="10sp"
+            android:id="@+id/lg"
+            android:layout_alignParentTop="true"
+            android:layout_toLeftOf="@+id/c"
+            android:layout_toStartOf="@+id/c" />
+
+        <Button
+            style="?android:attr/buttonStyleSmall"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:textSize="10sp"
+            android:id="@+id/rg"
+            android:layout_alignParentTop="true"
+            android:layout_toRightOf="@+id/c"
+            android:layout_toEndOf="@+id/c" />
+
+        <Button
+            style="?android:attr/buttonStyleSmall"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:textSize="10sp"
+            android:id="@+id/lt"
+            android:layout_alignParentTop="true"
+            android:layout_toLeftOf="@+id/lg"
+            android:layout_toStartOf="@+id/lg" />
+
+        <Button
+            style="?android:attr/buttonStyleSmall"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:textSize="10sp"
+            android:id="@+id/rt"
+            android:layout_alignParentTop="true"
+            android:layout_toRightOf="@+id/rg"
+            android:layout_toEndOf="@+id/rg" />
+
+        <Button
+            style="?android:attr/buttonStyleSmall"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:textSize="10sp"
+            android:id="@+id/te"
+            android:layout_alignParentTop="true"
+            android:layout_toRightOf="@+id/rt"
+            android:layout_toEndOf="@+id/rt" />
+
+        <Button
+            style="?android:attr/buttonStyleSmall"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:textSize="10sp"
+            android:id="@+id/wr1"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true" />
+
+        <Button
+            style="?android:attr/buttonStyleSmall"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:textSize="10sp"
+            android:id="@+id/wr2"
+            android:layout_below="@+id/te"
+            android:layout_alignParentRight="true"
+            android:layout_alignParentEnd="true" />
+
+        <Button
+            style="?android:attr/buttonStyleSmall"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:textSize="10sp"
+            android:id="@+id/qb"
+            android:layout_below="@+id/c"
+            android:layout_centerHorizontal="true" />
+
+        <Button
+            style="?android:attr/buttonStyleSmall"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:textSize="10sp"
+            android:id="@+id/fb"
+            android:layout_below="@+id/qb"
+            android:layout_alignLeft="@+id/qb"
+            android:layout_alignStart="@+id/qb" />
+
+        <Button
+            style="?android:attr/buttonStyleSmall"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:textSize="10sp"
+            android:id="@+id/rb"
+            android:layout_below="@+id/fb"
+            android:layout_centerHorizontal="true" />
+
+        <Button
+            style="?android:attr/buttonStyleSmall"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:textSize="10sp"
+            android:id="@+id/k"
+            android:layout_below="@+id/fb"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true" />
+
+        <Button
+            style="?android:attr/buttonStyleSmall"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:textSize="10sp"
+            android:text="P**"
+            android:id="@+id/p"
+            android:layout_alignParentBottom="true"
+            android:layout_alignParentRight="true"
+            android:layout_alignParentEnd="true" />
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="180dp"
+        android:layout_row="2"
+        android:layout_column="0"
+        android:clickable="false">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:id="@+id/budgetTextView"
+            android:layout_alignParentBottom="true"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true"
+            android:text="Budget:" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:id="@+id/draftPositionView"
+            android:layout_above="@+id/budgetView"
+            android:layout_centerHorizontal="true" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:id="@+id/budgetView"
+            android:layout_alignParentBottom="true"
+            android:layout_toRightOf="@+id/budgetTextView"
+            android:layout_toEndOf="@+id/budgetTextView" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:id="@+id/teamHomeAway"
+            android:layout_alignParentBottom="true"
+            android:layout_alignParentRight="true"
+            android:layout_alignParentEnd="true" />
+
+        <Button
+            style="?android:attr/buttonStyleSmall"
+            android:layout_width="150dp"
+            android:layout_height="50dp"
+            android:id="@+id/simDraft"
+            android:layout_above="@+id/draftPositionView"
+            android:layout_centerHorizontal="true" />
+
+        <Button
+            style="?android:attr/buttonStyleSmall"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:textSize="10sp"
+            android:id="@+id/player2"
+            android:layout_above="@+id/simDraft"
+            android:layout_centerHorizontal="true" />
+
+        <Button
+            style="?android:attr/buttonStyleSmall"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:textSize="10sp"
+            android:id="@+id/player3"
+            android:layout_alignTop="@+id/player2"
+            android:layout_toLeftOf="@+id/simDraft"
+            android:layout_toStartOf="@+id/simDraft" />
+
+        <Button
+            style="?android:attr/buttonStyleSmall"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:textSize="10sp"
+            android:id="@+id/player1"
+            android:layout_alignTop="@+id/player2"
+            android:layout_toRightOf="@+id/simDraft"
+            android:layout_toEndOf="@+id/simDraft" />
+    </RelativeLayout>
+
+</GridLayout>

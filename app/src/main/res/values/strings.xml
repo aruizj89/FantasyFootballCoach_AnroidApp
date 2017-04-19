@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">Fantasy Football</string>
+    <string name="pve">Player vs Computer</string>
+    <string name="help">Help**</string>
+    <string name="season">Season Mode**</string>
+    <string name="pvp">Player vs Player</string>
+    <string name="footNote">** - Coming Soon</string>
+</resources>
